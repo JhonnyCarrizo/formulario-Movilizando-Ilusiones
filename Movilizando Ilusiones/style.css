@@ -1,0 +1,190 @@
+
+body {
+    background-image: url(img/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Todo el formulario */
+/* inicio */
+form {
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 750px;
+    margin: 45px auto auto 22%;
+}
+/* fin */
+
+/* Contenedores */
+/* inicio */
+#boxNombres {
+    width: 49%;
+    height: 80px;
+}
+
+#boxApellidos {
+    width: 49%;
+    height: 80px;
+}
+
+#boxCedula {
+    width: 33%;
+    height: 80px;
+}   
+
+#boxFecha {
+    width: 32%;
+    height: 80px;
+}
+
+#boxNacionalidad {
+    width: 32%;
+    height: 80px;
+}
+
+#boxDireccion {
+    width: 100%;
+    height: 80px;
+
+}
+
+#boxTelefonoP {
+    width: 49%;
+    height: 80px;
+}
+
+#boxTelefonoS {
+    width: 49%;
+    height: 80px;
+}
+
+#boxCargo {
+    width: 49%;
+    height: 60px;
+}
+
+#boxlvlInst {
+    width: 49%;
+    height: 60px;
+}
+
+#boxLaborales {
+    width: 100%;
+    height: 60px;
+}
+/* fin */
+
+/* input */
+/* inicio */
+input[type="text"], input[type="tel"] {
+    width: 200px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto 10px 50px;
+}
+/* fin */
+
+/* input individuales */
+/* inicio */
+#cedula {
+    width: 150px;
+}
+
+#apellidos {
+    margin: auto auto auto 100px;
+}
+
+#direccion {
+    width: 625px;
+}
+
+#telefonoP {
+    margin: auto auto auto 100px;
+}
+/* fin */
+
+/* select */
+/* inicio */
+select {
+    width: 200px;
+    background-color: white;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: black;
+}
+/* fin */
+
+/* select individuales */
+/* inicio */
+#cargo {
+    margin: auto auto auto 100px;
+}
+
+#lvlInst {
+    margin: auto auto auto 75px;
+}
+/* fin */
+
+/* Fecha de nacimiento */
+/* inicio */
+#nacimiento {
+    width: 120px;
+    height: 50px;
+    font-size: 15px;
+    margin: 12px auto auto 50px;
+    border-color: black;
+    border-radius: 5px;
+    font-weight: 600;
+}
+/* fin */
+
+/* Label de los Dias laborales */
+/* inicio */
+#DL {
+    font-size: 20px;
+    margin: auto auto 50px 42%;
+}
+/* fin */
+
+/* checkbox de los Dias laborales */
+/* inicio */
+input[type="checkbox"]{
+    margin: 10px 10px auto auto;
+}
+/* fin */
+/* para ponerle margen a los checkbox xdddd */
+/* inicio */
+#Lun {
+    margin: auto auto auto 100px;
+}
+/* fin */
+
+/* boton para enviar los datos */
+/* inicio */
+input[type="submit"] {
+width: 100px;
+background-color: white;
+font-size: 15px;
+border-radius: 100px;
+padding: 10px;
+color: black;
+text-align: center;
+margin: 10px auto 20px 325px;
+font-weight: 700;
+cursor: pointer;
+}
+/* fin */
+
+/* label */
+/* inicio */
+.defaultLabel {
+    opacity: 0%;
+}
+/* fin */
